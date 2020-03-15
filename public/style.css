@@ -10,7 +10,7 @@ h1 {
 
 .card {
     float: left;
-    background-color: blue;
+    background-color: rgb(47, 47, 221);
     text-align: center;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -27,4 +27,5 @@ h1 {
 #input {
     width: 50%;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
