@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 app.post("/submit", (req, res) => {
     console.log(req.body);
 
-    db.notes.insert(req.body, (error, data) => {
+    db.workout.insert(req.body, (error, data) => {
     if (error) {
         res.send(error);
     } else {
@@ -40,7 +40,7 @@ app.post("/submit", (req, res) => {
 app.post("/submit", (req, res) => {
     console.log(req.body);
   
-    db.notes.insert(req.body, (error, data) => {
+    db.workout.insert(req.body, (error, data) => {
       if (error) {
         res.send(error);
       } else {
@@ -50,7 +50,7 @@ app.post("/submit", (req, res) => {
   });
 
 app.get("/all", (req, res) => {
-db.notes.find({}, (error, data) => {
+db.workout.find({}, (error, data) => {
     if (error) {
     res.send(error);
     } else {

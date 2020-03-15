@@ -29,3 +29,18 @@ h1 {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+ul {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none;
+    background-color: #ddd;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
